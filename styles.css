@@ -39,6 +39,15 @@ body .details {
     cursor: context-menu;
 }
 
+.leftt {
+    width: 6rem;
+    height: 6rem;
+    background-color: #E9AFB0;
+    position: absolute;
+    margin-top: 3.01rem;
+    margin-left: 8.95rem;
+}
+
 .container {
     width: 51rem;
     height: 17rem;
@@ -49,34 +58,24 @@ body .details {
     position: relative;
 }
 
-.container::before {
-    content: url(./media/arrow-left.svg);
-    position: absolute;
-    width: 6rem;
-    height: 6rem;
-    background-color: #EBB9B8;
-    margin-left: -6rem;
+.ppt {
     display: flex;
     align-items: center;
     justify-content: center;
     cursor: pointer;
 }
 
-.container::after {
-    content: url(./media/arrow-right.svg);
-    position: absolute;
-    width: 6rem;
-    height: 6rem;
-    background-color: #EBB9B8;
-    right: -6rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    cursor: pointer;
+.ppt:hover {
+    background-color: #F1C9CA;
 }
 
-.container:hover::before {
-    background-color: black;
+.rightt {
+    width: 6rem;
+    height: 6rem;
+    background-color: #E9AFB0;
+    position: absolute;
+    margin-top: -20.45rem;
+    margin-left: 66rem;
 }
 
 .cols {
